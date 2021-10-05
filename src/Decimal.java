@@ -8,6 +8,7 @@ public class Decimal {
     public Decimal(int numerator, int denominator){
         this.numerator = numerator;
         this.denominator = denominator;
+        count++;
     }
     public int getNumerator() {
         return numerator;
