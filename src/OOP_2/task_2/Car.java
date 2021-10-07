@@ -1,4 +1,4 @@
-package OOP_2.Task_2;
+package OOP_2.task_2;
 
 public class Car {
     private int year;

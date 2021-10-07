@@ -1,4 +1,4 @@
-package OOP_2.Additional;
+package OOP_2.additional;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package OOP_2.Additional;
+package OOP_2.additional;
 
 public class MyArea {
     private static final double PI = 3.14;

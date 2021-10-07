@@ -1,22 +1,26 @@
-package OOP_2.Task_3;
+package OOP_2.task_4;
 
 public class Car {
     private int year;
     private double speed;
     private int weight;
     private String color;
-    public Car(){}
+    public Car(){
+        this(2017, 200, 2000, "Yellow");
+    }
     public Car(int year){
+        this(250, 1500, "Red");
         this.year = year;
     }
     public Car(int year, double speed){
+        this();
         this.year = year;
         this.speed = speed;
     }
-    public Car(int year, double speed, int weight){
-        this.year = year;
-        this.speed = speed;
+    public Car(double speed, int weight, String color){
+        this(2013, 300);
         this.weight = weight;
+        this.color = color;
     }
     public Car(int year, double speed, int weight, String color){
         this.year = year;
@@ -24,4 +28,5 @@ public class Car {
         this.weight = weight;
         this.color = color;
     }
+
 }

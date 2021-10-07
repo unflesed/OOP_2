@@ -1,4 +1,4 @@
-package OOP_2.Task_3;
+package OOP_2.task_3;
 
 public class Main {
     public static void main(String[] args) {
